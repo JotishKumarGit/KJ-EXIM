@@ -18,53 +18,9 @@
 
 <body id="home">
 
-    <!-- HEADER STARTS -->
-    <header>
-        <section class="container">
-            <!--top right -->
-            <div class="top_right">
-                <!-- Social Media Icons -->
+    <!-- header  -->
+    <?php include('header.php') ?>
 
-                <div class="clearfix"></div>
-                <div class="top-txt">
-                    <p><span><i class="fa fa-phone"></i> Call now for Bulk Orders: +91 9689653783 / +91
-                            8454042304</span><span><i class="fa fa-file-text"></i> GST No: 27BCPPJ7536N1ZS</span></p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
-            <!---->
-
-            <!--top left -->
-            <div class="top_left">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span> <span class="icon-bar"></span> <span
-                            class="icon-bar"></span></button>
-                    <a href="index.html" title="KJ EXIM" class="navbar-brand"><img src="images/logo.png" title="KJ EXIM"
-                            alt="KJ EXIM"></a>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </section>
-    </header>
-    <!--navigation-->
-    <nav>
-        <div id="navbar" class="navbar-collapse collapse">
-            <div class="container">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html" class="home">Home</a></li>
-                    <li><a href="about.html" class="about-us">About Us</a></li>
-                    <li><a href="products.html" class="services">Products</a></li>
-                    <li><a href="gallery.html" class="education">Gallery</a></li>
-                    <li><a href="blog.html" class="blog">Blog</a></li>
-                    <li><a href="contact.html" class="contact-us">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- HEADER ENDS A-->
 
     <!-- bread crumb -->
     <section class=" text-white position-relative text-center"
@@ -175,36 +131,5 @@
         </div>
     </footer>
 
-    <!-- FOOTER ENDS A-->
-    <script src="Scripts/jquery-1.11.3.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/helpers.min.js"></script>
-    <script src="Scripts/function.js"></script>
-
-    <script>
-        function sendWhatsAppMessage(event) {
-            event.preventDefault();
-
-            let name = document.getElementById("name").value;
-            let email = document.getElementById("email").value;
-            let phone = document.getElementById("phone").value;
-            let message = document.getElementById("message").value;
-
-            let whatsappNumber = "9689653783";
-
-            let whatsappMessage =
-                `Hello, I would like to contact you.%0A%0A` +
-                `Name: ${name}%0A` +
-                `Email: ${email}%0A` +
-                `Phone: ${phone}%0A` +
-                `Message: ${message}`;
-
-            let whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
-
-            window.open(whatsappURL, "_blank");
-        }
-    </script>
-
-</body>
-
-</html>
+    <!-- footer -->
+    <?php include('footer.php') ?>

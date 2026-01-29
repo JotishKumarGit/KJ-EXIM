@@ -18,53 +18,9 @@
 
 <body id="home">
 
-    <!-- HEADER STARTS -->
-    <header>
-        <section class="container">
-            <!--top right -->
-            <div class="top_right">
-                <!-- Social Media Icons -->
+    <!-- header  -->
+  <?php include('header.php') ?>
 
-                <div class="clearfix"></div>
-                <div class="top-txt">
-                    <p><span><i class="fa fa-phone"></i> Call now for Bulk Orders: +91 9689653783 / +91
-                            8454042304</span><span><i class="fa fa-file-text"></i> GST No: 27BCPPJ7536N1ZS</span></p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
-            <!---->
-
-            <!--top left -->
-            <div class="top_left">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span> <span class="icon-bar"></span> <span
-                            class="icon-bar"></span></button>
-                    <a href="index.html" title="KJ EXIM" class="navbar-brand"><img src="images/logo.png" title="KJ EXIM"
-                            alt="KJ EXIM"></a>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </section>
-    </header>
-    <!--navigation-->
-    <nav>
-        <div id="navbar" class="navbar-collapse collapse">
-            <div class="container">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html" class="home">Home</a></li>
-                    <li><a href="about.html" class="about-us">About Us</a></li>
-                    <li><a href="products.html" class="services">Products</a></li>
-                    <li><a href="gallery.html" class="education">Gallery</a></li>
-                    <li><a href="blog.html" class="blog">Blog</a></li>
-                    <li><a href="contact.html" class="contact-us">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- HEADER ENDS A-->
 
     <!-- bread crumb -->
     <section class=" text-white position-relative text-center"
@@ -103,7 +59,7 @@
                             <img src="images/vermicompost.jpg" alt="Vermicompost Organic Fertilizer">
                             <div class="product-overlay">
                                 <div class="overlay-content">
-                                    <a href="vermicompost.html" class="quick-view-btn">
+                                    <a href="vermicompost.php" class="quick-view-btn">
                                         <i class="fa fa-eye"></i> Quick View & Details
                                     </a>
                                 </div>
@@ -124,7 +80,7 @@
                                 <span><i class="fa fa-check"></i> Improves Soil Health</span>
                             </div>
                             <div class="product-actions">
-                                <a href="vermicompost.html" class="btn btn-premium trans_eff">View Full Details</a>
+                                <a href="vermicompost.php" class="btn btn-premium trans_eff">View Full Details</a>
                                 <button class="btn btn-quote" onclick="openModal()">Get Bulk Quote</button>
                             </div>
                         </div>
@@ -139,7 +95,7 @@
                             <img src="images/organic-manure.jpg" alt="Organic Manure">
                             <div class="product-overlay">
                                 <div class="overlay-content">
-                                    <a href="organic-manure.html" class="quick-view-btn">
+                                    <a href="organic-manure.php" class="quick-view-btn">
                                         <i class="fa fa-eye"></i> Quick View & Details
                                     </a>
                                 </div>
@@ -159,7 +115,7 @@
                                 <span><i class="fa fa-check"></i> Safe for All Crops</span>
                             </div>
                             <div class="product-actions">
-                                <a href="organic-manure.html" class="btn btn-premium trans_eff">View Full Details</a>
+                                <a href="organic-manure.php" class="btn btn-premium trans_eff">View Full Details</a>
                                 <button class="btn btn-quote" onclick="openModal()">Get Bulk Quote</button>
                             </div>
                         </div>
@@ -176,7 +132,7 @@
                             <img src="images/soil-conditioner.jpg" alt="Agricultural Soil Conditioner">
                             <div class="product-overlay">
                                 <div class="overlay-content">
-                                    <a href="soil-conditioner.html" class="quick-view-btn">
+                                    <a href="soil-conditioner.php" class="quick-view-btn">
                                         <i class="fa fa-eye"></i> Quick View & Details
                                     </a>
                                 </div>
@@ -197,7 +153,7 @@
                                 <span><i class="fa fa-check"></i> Long Lasting</span>
                             </div>
                             <div class="product-actions">
-                                <a href="soil-conditioner.html" class="btn btn-premium trans_eff">View Full Details</a>
+                                <a href="soil-conditioner.php" class="btn btn-premium trans_eff">View Full Details</a>
                                 <button class="btn btn-quote" onclick="openModal()">Get Bulk Quote</button>
                             </div>
                         </div>
@@ -212,7 +168,7 @@
                             <img src="images/bulk-fertilizer.jpg" alt="Bulk Fertilizer Supply">
                             <div class="product-overlay">
                                 <div class="overlay-content">
-                                    <a href="bulk-fertilizer.html" class="quick-view-btn">
+                                    <a href="bulk-fertilizer.php" class="quick-view-btn">
                                         <i class="fa fa-eye"></i> Quick View & Details
                                     </a>
                                 </div>
@@ -232,7 +188,7 @@
                                 <span><i class="fa fa-check"></i> Timely Supply</span>
                             </div>
                             <div class="product-actions">
-                                <a href="bulk-fertilizer.html" class="btn btn-premium trans_eff">View Full Details</a>
+                                <a href="bulk-fertilizer.php" class="btn btn-premium trans_eff">View Full Details</a>
                                 <button class="btn btn-quote" onclick="openModal()">Get Bulk Quote</button>
                             </div>
                         </div>
@@ -243,7 +199,7 @@
 
                 <!-- View All Products Button -->
                 <div class="col-md-12 text-center mt-40">
-                    <a href="products.html" class="btn btn-view-all">
+                    <a href="products.php" class="btn btn-view-all">
                         <i class="fa fa-th-large"></i> View Complete Product Range
                     </a>
                 </div>
@@ -252,88 +208,5 @@
     </section>
     <!-- PRODUCTS SECTION ENDS -->
 
-    <!-- FOOTER STARTS A-->
-    <footer>
-        <div class="container">
-            <div class="col-1">
-                <h3>Know Us Better</h3>
-                <div class="f_link"> <a href="#">Home</a> <a href="#">About Us</a> <a href="#">Products</a> <a
-                        href="#">Exports</a> <a href="#">Our USP</a> <a href="#">blog</a> </div>
-            </div>
-            <div class="col-2">
-                <h3>Quick Links</h3>
-                <div class="f_link"> <a href="#">Terms and conditions</a> <a href="#">Bulk Order Inquiry</a> <a
-                        href="#">Quality
-                        Certification</a> <a href="#">Privacy policy</a> <a href="#">Contact Us</a> <a
-                        href="#">Sitemap</a> </div>
-            </div>
-            <div class="col-3">
-                <h3>Keep in touch</h3>
-                <div class="f_contact_con white">
-                    <h4>KJ EXIM - Organic Fertilizer Supplier</h4>
-                    <p class="mt15"><i class="fa fa-map-marker fs18 mr5"></i> House no 740, near Ganesh temple,<br>
-                        A/P Nittur, Tal - Chandgad,<br>
-                        Kolhapur, Maharashtra 416508, India</p>
-                    <p class="mt15"><i class="fa fa-envelope fs14 mr5"></i> <a
-                            href="mailto: kjexim2023@gmail.com">kjexim2023@gmail.com</a></p>
-                    <p class="mt15"><i class="fa fa-phone fs14 mr5"></i> Mobile: +91 9689653783</p>
-                    <p class="mt15"><i class="fa fa-phone fs14 mr5"></i> Phone: +91 8454042304</p>
-                </div>
-            </div>
-            <div class="business_details_con white">
-                <h3>Business Details</h3>
-                <div class="business_details">
-                    <p><strong>Contact Person:</strong> Ketan Mahadev Jadhav</p>
-                    <p><strong>Designation:</strong> Proprietor</p>
-                    <p><strong>GST Number:</strong> 27BCPPJ7536N1ZS</p>
-                    <p><strong>Established:</strong> 2023</p>
-                    <p><strong>Experience:</strong> 3 years in Agriculture & Organic Fertilizer</p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="cp" style="background-color: #333; color: #fff;">
-            <div class="container">
-                <p class="copyright" style="color: #fff !important;">
-                    © 2023, <strong style="color: #fff !important;">KJ EXIM</strong>. All rights reserved.
-                    <span style="color: #fff !important;">Managed By :- <a href="https://trade4export.com"
-                            style="color: rgb(92, 92, 241) !important;">Trade4Export</a></span>
-                </p>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- FOOTER ENDS A-->
-    <script src="Scripts/jquery-1.11.3.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/helpers.min.js"></script>
-    <script src="Scripts/function.js"></script>
-
-
-    <script>
-        function sendWhatsAppMessage(event) {
-            event.preventDefault();
-
-            let name = document.getElementById("name").value;
-            let email = document.getElementById("email").value;
-            let phone = document.getElementById("phone").value;
-            let message = document.getElementById("message").value;
-
-            let whatsappNumber = "9689653783";
-
-            let whatsappMessage =
-                `Hello, I would like to contact you.%0A%0A` +
-                `Name: ${name}%0A` +
-                `Email: ${email}%0A` +
-                `Phone: ${phone}%0A` +
-                `Message: ${message}`;
-
-            let whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
-
-            window.open(whatsappURL, "_blank");
-        }
-    </script>
-</body>
-
-</html>
+   <!-- footer -->
+  <?php include('footer.php') ?>

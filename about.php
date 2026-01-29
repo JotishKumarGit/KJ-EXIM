@@ -42,7 +42,7 @@
                         aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span> <span class="icon-bar"></span> <span
                             class="icon-bar"></span></button>
-                    <a href="index.html" title="KJ EXIM" class="navbar-brand"><img src="images/logo.png" title="KJ EXIM"
+                    <a href="index.php" title="KJ EXIM" class="navbar-brand"><img src="images/logo.png" title="KJ EXIM"
                             alt="KJ EXIM"></a>
                 </div>
             </div>
@@ -54,12 +54,12 @@
         <div id="navbar" class="navbar-collapse collapse">
             <div class="container">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html" class="home">Home</a></li>
-                    <li><a href="about.html" class="about-us">About Us</a></li>
-                    <li><a href="products.html" class="services">Products</a></li>
-                    <li><a href="gallery.html" class="education">Gallery</a></li>
-                    <li><a href="blog.html" class="blog">Blog</a></li>
-                    <li><a href="contact.html" class="contact-us">Contact Us</a></li>
+                    <li><a href="index.php" class="home">Home</a></li>
+                    <li><a href="about.php" class="about-us">About Us</a></li>
+                    <li><a href="products.php" class="services">Products</a></li>
+                    <li><a href="gallery.php" class="education">Gallery</a></li>
+                    <li><a href="blog.php" class="blog">Blog</a></li>
+                    <li><a href="contact.php" class="contact-us">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -74,42 +74,85 @@
         <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.9);"></div>
 
         <div class="container position-relative py-5">
-            <h2 class="mb-3" style="color: white; margin-bottom: 10px;">Vermicompost</h2>
+            <h2 class="mb-3" style="color: white; margin-bottom: 10px;">About Us</h2>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item">
                         <a href="#" class="text-white text-decoration-none">Home</a>
                     </li>
                     <li class="breadcrumb-item active text-light" aria-current="page">
-                        Vermicompost
+                        About Us
                     </li>
                 </ol>
             </nav>
         </div>
     </section>
 
-    <!-- Products detalis  -->
-<div class="container py-5">
-    <div class="row align-items-center" style="padding: 20px;">
-        <!-- Left side image -->
-        <div class="col-md-6 product-image">
-            <img src="./images/vermicompost.jpg" height="auto" width="100%" alt="Vermicompost" />
-        </div>
 
-        <!-- Right side description -->
-        <div class="col-md-6 product-details">
-            <h2>Vermicompost</h2>
-            <p>Vermicompost is an organic fertilizer produced through the natural breakdown of organic waste by earthworms. It enriches the soil with essential nutrients and beneficial microbes, enhancing plant growth and soil health sustainably.</p>
-            <ul>
-                <li>✔ Increases soil aeration and moisture retention</li>
-                <li>✔ Enhances nutrient availability for plants</li>
-                <li>✔ Environmentally friendly and chemical-free</li>
-                <li>✔ Suitable for all types of crops and gardens</li>
-            </ul>
-            <button type="button" class="btn btn-success btn-lg" onclick="openModal()">Enquiry Now</button>
+    <!-- SERVICES STARTS A-->
+    <div class="service_con">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="inner">
+                        <figure><i class="fa fa-leaf"></i></figure>
+                        <figcaption> <a href="#" class="tittle">Our Products</a>
+                            <p>Vermicompost Organic Fertilizer, Organic Manure, Agricultural Soil Conditioner, and Bulk
+                                Fertilizer
+                                Supply for all types of crops.</p>
+                        </figcaption>
+                        <a href="#" class="btn btn-success trans_eff">Read More</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="inner">
+                        <figure><i class="fa fa-globe"></i></figure>
+                        <figcaption> <a href="#" class="tittle">Export Services</a>
+                            <p>We export high-quality Vermicompost to UAE, Saudi Arabia, Bangladesh, Nepal, Netherlands
+                                and other
+                                countries worldwide.</p>
+                        </figcaption>
+                        <a href="#" class="btn btn-success trans_eff">Read More</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="inner">
+                        <figure><i class="fa fa-truck" style="font-size:45px;"></i></figure>
+                        <figcaption><a href="#" class="tittle">Bulk Supply</a>
+                            <p>We supply bulk quantities of organic Vermicompost to farmers, nurseries, agricultural
+                                businesses and
+                                wholesale dealers.</p>
+                        </figcaption>
+                        <a href="#" class="btn btn-success trans_eff">Read More</a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
         </div>
     </div>
-</div>
+    <!-- SERVICES ENDS A-->
+
+    <!-- HOW TO USE STARTS A-->
+    <section class="how_to_con">
+        <div class="container ac">
+            <h1 class="white ttu title2 rel dib">Welcome to KJ EXIM</h1>
+            <p>KJ EXIM is a trusted supplier and exporter of high-quality Vermicompost and organic fertilizers. Our
+                products
+                are 100% natural, eco‑friendly, and help improve soil fertility and crop productivity. We focus on
+                delivering
+                bulk quantities with consistent quality for farmers, nurseries, and agricultural businesses.<br>
+                <br>
+                Established in 2023 with 3 years of expertise in agriculture and organic fertilizer supply, we are
+                committed to
+                sustainable farming practices. Our Vermicompost is chemical-free, rich in nutrients, and suitable for
+                all types
+                of crops. We serve clients across India and export to international markets including UAE, Saudi Arabia,
+                Bangladesh, Nepal, and Netherlands.
+            </p>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- HOW TO USE ENDS A-->
 
 
     <!-- FOOTER STARTS A-->
@@ -170,6 +213,7 @@
     <script src="Scripts/helpers.min.js"></script>
     <script src="Scripts/function.js"></script>
 
+
     <script>
         function sendWhatsAppMessage(event) {
             event.preventDefault();
@@ -193,7 +237,6 @@
             window.open(whatsappURL, "_blank");
         }
     </script>
-
 </body>
 
 </html>

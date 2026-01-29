@@ -5044,50 +5044,51 @@ form button {
     }
 }
 
-/* Products details  */.product-card {
+/* Products details  */
+.product-card {
     background-color: #fff;
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin-bottom: 30px;
     transition: transform 0.3s, box-shadow 0.3s;
-  }
+}
 
-  .product-card:hover {
+.product-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
 
-  .product-card img {
+.product-card img {
     width: 100%;
     height: auto;
     object-fit: cover;
-  }
+}
 
-  .product-details {
+.product-details {
     padding: 25px;
-  }
+}
 
-  .product-details h2 {
+.product-details h2 {
     color: #2c3e50;
     margin-bottom: 15px;
-  }
+}
 
-  .product-details p {
+.product-details p {
     color: #555;
     margin-bottom: 15px;
-  }
+}
 
-  .product-details ul {
+.product-details ul {
     margin-bottom: 20px;
     padding-left: 20px;
-  }
+}
 
-  .product-details li {
+.product-details li {
     margin-bottom: 8px;
-  }
+}
 
-  .enquiry-btn {
+.enquiry-btn {
     padding: 12px 25px;
     background-color: #28a745;
     color: white;
@@ -5097,17 +5098,18 @@ form button {
     cursor: pointer;
     transition: background-color 0.3s;
     text-decoration: none;
-  }
+}
 
-  .enquiry-btn:hover {
+.enquiry-btn:hover {
     background-color: #218838;
-  }
+}
 
-  @media(max-width: 768px) {
+@media(max-width: 768px) {
     .product-card {
-      text-align: center;
+        text-align: center;
     }
+
     .product-details {
-      padding: 20px 15px;
+        padding: 20px 15px;
     }
-  }
+}
